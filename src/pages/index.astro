@@ -1,24 +1,23 @@
 ---
-import Prueba from "../components/Prueba.jsx";
-import '../styles/index.css';
-import PantallaCarga from "../components/carga/PantallaCarga.jsx";
+import Prueba from "../components/Prueba";
+import "../styles/index.css";
+import PantallaCarga from "../components/carga/PantallaCarga";
+import Footer from "../components/footer/Footer";
 ---
 
 <html lang="en">
-	<head >
+	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Max Paredes Portafolio</title>
-		</head>
+	</head>
 	<body >
 		<section class="index" >  
-		
 			<header class="header">
 				<h1>Max Paredes Portfolio </h1>
 			</header>
-		
 		<!-- enrutamiento -->
 		<!-- <p>Leer más <a href="/about/">sobre Astro!</a></p>  -->
 		<!-- <Prueba client:load/> -->
@@ -26,8 +25,7 @@ import PantallaCarga from "../components/carga/PantallaCarga.jsx";
 				<h1 class="text" >Work in Progress</h1>
 				<PantallaCarga client:load />
 			</box>
-			
+			<Footer client:load/>
 		</section>	
-
 	</body>
 </html>
