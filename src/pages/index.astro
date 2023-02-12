@@ -1,33 +1,30 @@
 ---
-import Prueba from "../components/Prueba.jsx";
-import '../styles/index.css';
-import PantallaCarga from "../components/carga/PantallaCarga.jsx";
+import Prueba from "../components/Prueba";
+import "../styles/index.css";
+import PantallaCarga from "../components/carga/PantallaCarga";
 ---
 
 <html lang="en">
-	<head >
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Max Paredes Portafolio</title>
-		</head>
-	<body >
-		<section class="index" >  
-		
-			<header class="header">
-				<h1>Max Paredes Portfolio </h1>
-			</header>
-		
-		<!-- enrutamiento -->
-		<!-- <p>Leer más <a href="/about/">sobre Astro!</a></p>  -->
-		<!-- <Prueba client:load/> -->
-			<box class="box">
-				<h1 class="text" >Work in Progress</h1>
-				<PantallaCarga client:load />
-			</box>
-			
-		</section>	
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Max Paredes Portafolio</title>
+  </head>
+  <body>
+    <section class="index">
+      <header class="header">
+        <h1>Max Paredes Portfolio</h1>
+      </header>
 
-	</body>
+      <!-- enrutamiento -->
+      <!-- <p>Leer más <a href="/about/">sobre Astro!</a></p>  -->
+      <!-- <Prueba client:load/> -->
+      <box class="box">
+        <h1 class="text">Work in Progress</h1>
+        <PantallaCarga client:load />
+      </box>
+    </section>
+  </body>
 </html>

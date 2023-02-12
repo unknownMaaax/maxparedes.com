@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaHammer } from "react-icons/fa";
+import { FaHammer } from "react-icons/fa/index";
 import "./carga.css";
 
 interface Props {}
