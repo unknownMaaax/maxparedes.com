@@ -15,6 +15,9 @@ const Footer: React.FC<Props> = () => {
       >
         <FaLinkedin size={32} className="icon" />
       </a>
+      <a href="https://twitter.com/paredesmaxii" rel="noopener noreferrer">
+        <FaTwitter size={32} className="icon" />
+      </a>
     </div>
   );
 };
