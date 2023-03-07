@@ -1,9 +1,25 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.jsx';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		
+<Layout title="Max Paredes Portfolio">
+	<Header client:only="react"></Header>
+	<main class="container">
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[7rem] lg:pt-5 text-center lg:text-left max-w-[1024px] mx-auto">
+			<div class="flex flex-col lg:flex lg:flex-row items-center relative z-0">
+				<div>
+					<h1 class="text-almost-black text-4xl lg:text-[5rem] lg:leading-[5rem] font-bold">No se que poner de titulo acá</h1>
+					<p class="py-5 lg:py-[4rem] lg:text-xl">Build fully functional accessible web applications faster than ever 
+						– Mantine includes more than 100 customizable components and 40 hooks to cover you in any situation</p>
+					<!-- agregar algo idk -->
+				</div>
+				<!-- si quiero poner img bajo<ul></ul> -->
+			</div>
+			<div class="order-first lg:order-last">
+				<img class="lg:hidden mb-9" src="me.jpg" alt="me">
+				<img class="hidden lg:block" src="me.jpg" alt="me">
+			</div>
+		</div>
 	</main>
 </Layout>
