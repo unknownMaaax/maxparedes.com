@@ -82,7 +82,7 @@ function NavMenu() {
                                 <a
                                 className={`${active && 'bg-gray-100 text-gray-900'}
                                 block w-full text-left px-4 py-2 text-sm cursor-pointer`}
-                                href="/"
+                                href="https://www.linkedin.com/in/maxparedesarenas/"
                                 >
                                 Linkedin
                                 </a>
@@ -93,7 +93,7 @@ function NavMenu() {
                                 <a
                                 className={`${active && 'bg-gray-100 text-gray-900'}
                                 block w-full text-left px-4 py-2 text-sm cursor-pointer`}
-                                href="/"
+                                href="https://github.com/unknownMaaax"
                                 >
                                 Github 
                                 </a>

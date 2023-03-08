@@ -36,10 +36,10 @@ const SideBar = ({ open = false, setOpen }) => {
                     {({ open }) => (
                       <>
                         <Disclosure.Button className="flex items-center text-left">
-                          <span className="mr-4">Features</span>
+                          <span className="mr-4">Proyectos</span>
                           <img
                             clasName=""
-                            src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
+                            src={`icon-arrow-${open ? "up" : "down"}.svg`}
                             alt="Arrow"
                           />
                         </Disclosure.Button>
@@ -47,19 +47,15 @@ const SideBar = ({ open = false, setOpen }) => {
                           <ul className="flex flex-col space-y-3">
                             <li className="cursor-pointer">
                               
-                              Todo list
+                              Proyecto 1
                             </li>
                             <li className="cursor-pointer">
                               
-                              Calendar
+                              Proyecto 2
                             </li>
                             <li className="cursor-pointer">
                               
-                              Reminders
-                            </li>
-                            <li className="cursor-pointer">
-                              
-                              Planning
+                              proyecto 3
                             </li>
                           </ul>
                         </Disclosure.Panel>
@@ -72,29 +68,25 @@ const SideBar = ({ open = false, setOpen }) => {
                     {({ open }) => (
                       <>
                         <Disclosure.Button className="flex items-center text-left">
-                          <span className="mr-4">Company</span>
+                          <span className="mr-4">Socials</span>
                           <img
                             clasName=""
-                            src={`images/icon-arrow-${open ? "up" : "down"}.svg`}
+                            src={`icon-arrow-${open ? "up" : "down"}.svg`}
                             alt="Arrow"
                           />
+                          <a href=""></a>
                         </Disclosure.Button>
                         <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                           <ul className="flex flex-col space-y-3">
-                            <li className="cursor-pointer">History</li>
-                            <li className="cursor-pointer">Our Team</li>
-                            <li className="cursor-pointer">Blog</li>
+                            <a href="https://www.linkedin.com/in/maxparedesarenas/">Linkedin</a>  
+                            <a href="https://github.com/unknownMaaax">Github</a>
                           </ul>
                         </Disclosure.Panel>
                       </>
                     )}
                   </Disclosure>
                 </li>
-                <li>Careers</li>
-                <li>About</li>
               </ul>
-  
-              
             </div>
             {/* ... */}
           </Transition.Child>
